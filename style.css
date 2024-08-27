@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    height: 100vh;
+    background-color: #F3F5FC;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    padding: 1.25rem;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    margin-left: 15rem;
+    justify-content: space-between;
+    width: 0;
+    
+    
+}
+
+.logo_a{
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    }
+
+textarea{
+    width: 36rem;
+    height: 3rem;
+    margin-bottom: 6.25rem;
+    padding: 0.6rem;
+    background-color: transparent;
+    color: darkblue;
+    font-size: 2rem;
+    font-family: "Inter", sans-serif;
+}
+
+.botones_encriptar{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+button {
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    width: 20.5rem;
+    height: 4.2rem;
+    padding: 1.5rem;
+    margin: 0.3rem 0;
+    border-radius: 1.5rem;
+    border-color: darkblue;
+    border-width: 0.06rem;
+    font-size: 1rem;
+    cursor: pointer;
+    gap:0.5rem;
+       
+}
+
+.boton_desencriptar{
+    background-color: #D8DFEB;
+    color: darkblue;
+}
+
+.boton_encriptar{
+    background-color: darkblue;
+    color: white;
+}
+button:hover {
+    background-color: rgb(161, 158, 158);
+}
+
+.boton_copiar{
+    width: 21rem;
+    margin-top: 31.8rem;
+}
+
+.boton_advertencia{
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif;
+    color: #495057
+}
+
+perro{
+    margin-top: 0rem;
+
+}
+
+.image_section {
+    background-color: #fff;
+    border: 0.06rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.6rem; /* Ajuste de padding para mejorar la visualización */
+    margin-left: 5rem; /* Espacio a la izquierda para empujar a la derecha */
+    text-align: center;
+    width: 25rem;
+    left: 62.5rem;
+    height: 59rem;
+    margin-right: 0.6rem;
+    margin-bottom: 2.5rem;
+    }
+
+.body_muñeco {
+    max-width: 100%;
+    border-radius: 2rem;
+    padding-top: 15.2rem;
+    padding-left: 2rem; /* Borde izquierdo */
+    padding-right: 2rem; /* Borde derecho */
+    padding-bottom: 2rem; /* Borde inferior */
+}
+
+.image-text {
+    
+    font-weight: bold;
+    color: darkblue;
+    margin-bottom: 1rem; /* Eliminar margen inferior */
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+}
+
+.image-text1 {
+    margin-top: 0.06rem;
+    color: darkblue;
+    margin-bottom: 15.2rem; /* Eliminar margen inferior */
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+}    
+
+.body_muñeco1 {
+
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    color: #495057
+}
